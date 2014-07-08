@@ -2,16 +2,87 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Title</title>
+	<title>Welcome to my first page.</title>
 	<meta name="description" content="Lian's Web Page">
 	<meta name="keywords" content="Lian, ncnu, csie, taiwan">
 	<meta name="author" content="Lian Lin">
+	<style>
+		*{
+			background-image: url('img/background.png');
+		}
+		.col{
+			background-color: red;/*no work*/
+		}
+		.img{
+			/*如何填滿*/
+		}
+		.list{
+			/*版面?*/
+		}
+		a:link{
+			color: #47F00F;
+			text-decoration: none;
+		}
+		a:visited{
+			color: #47F00F;
+			text-decoration: none;
+		}
+	</style>
 </head>
 <body >
+	
 	<!-- Page Container -->
 	<div id="container" align="center">
+		<div>
+			<h1 style="font-size:40px; color:#FC96BC">Sai's Website</h1>
+		</div>
+		<div  align="center">
+			<h2 class="col">Menu</h2>
+			<ul>
+				<li><a href="https://www.facebook.com/profile.php?id=100000775049013">FB</a></li>
+				<li><a href=#about>About</a></li>
+				<li><a href=#Daily>Daily</a></li>
+			</ul>
+		</div>
+		<div>
+			<h2>Welcome to Lian's Website</h2>
+			<p>我現在是大三專生 oh ya!</p>
+		</div>
+		<div>
+			<h2  class="col" id="about">About me</h2>
 			<table border="1">
+				<tr>
+					<th>姓名</th>
+					<td>曾聖發</td>
+					<td rowspan="4" class="img">
+						<figure>
+							<img src="img/因為有你.jpg" alt="ggwp" width="500px";>
+							<p style="text-align:center;">偶像</p>
+						</figure>
+					</td>
+				</tr>
+				<tr>
+					<th>學系</th>
+					<td>資訊工程學系</td>
+				</tr>
+				<tr>
+					<th>年級</th>
+					<td>四年級</td>
+				</tr>
+				<tr>
+					<th>系隊</th>
+					<td>系羽</td>
+				</tr>
 			</table>
+		</div>
+		<div >
+			<h2 class="col">My Daily</h2>
+			<p style="color:#8992FC"><time datetime="2014-7-8"> 2014 July 8th.</time></p>
+			<p>今天又學到好多東西，不過好累喔XD</p>
+		</div>
+		<div>
+			<p><strong>&copy2014 copyright by WKE</strong></p>
+		</div>
 	</div>
 	
 </body>
