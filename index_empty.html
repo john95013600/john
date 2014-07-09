@@ -8,6 +8,10 @@
 	<meta name="author" content="Lian Lin">
 	<style>
 		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		body{
 			background-image: url('img/background.png');
 		}
 		.col{
@@ -24,7 +28,7 @@
 			color: #47F00F;
 			text-decoration: none;
 		}
-		/*.content{
+		.content{
 			height: 100%;
 		}
 		.head{
@@ -33,11 +37,11 @@
 		}
 		.menu{
 				float: top;
-			height: 20%;
+			height: 15%;
 		}
 		.wel{
 				float: top;
-			height:12.5%;
+			height:17.5%;
 		}
 		.aboutme{
 				float: top;
@@ -50,7 +54,32 @@
 		.copyright{
 				float: top;
 			height: 5%;
-		}*/
+		}
+		.border1
+		{
+			border: double #04C9DF 5px ;
+			float: right;
+			width: 18%;
+		}
+		.border2{
+			border: double #04C9DF 5px ;
+			float: right;
+			width:60%;
+		}
+		.border1-1
+		{
+			border: double #04C9DF 5px ;
+			float:right;
+			height: 17.25%;
+			width: 25%;
+		}
+		.border1-2{
+			border: double #04C9DF 5px ;
+			float: right;
+			height: 17.25%;
+			width: 66%;
+		}
+
 	</style>
 </head>
 <body >
@@ -69,17 +98,31 @@
 			</ul><hr>
 		</div>
 		<div class="wel">
-			<h2>Welcome to Lian's Website</h2>
-			<p>我現在是大三專生 oh ya!</p><hr>
+			<h2 class="col ">Welcome to Lian's Website</h2>
+			<p>我現在是大三專生 oh ya!</p>
 		</div>
 		<div class="aboutme">
 			<h2  class="col" id="about">About me</h2>
-			<table border="1">
+			<div class="border0"></div>
+			<div class="border2">
+				<img src="img/因為有你.jpg" alt="ggwp" width="47%";>
+			</div>
+			<div class="border1">
+				<div class="border1-2"><p>曾聖發</p></div>
+				<div class="border1-1"><p>姓名</p></div>
+				<div class="border1-2"><p>資訊工程學系</p></div>
+				<div class="border1-1"><p>學系</p></div>
+				<div class="border1-2"><p>年級</p></div>
+				<div class="border1-1"><p>三年級</p></div>
+				<div class="border1-2"><p>系羽</p></div>
+				<div class="border1-1"><p>系隊</p></div>
+			</div>
+			<!--<table border="1">
 				<tr>
 					<th>姓名</th>
 					<td>曾聖發</td>
 					<td rowspan="4" class="img">
-						<figure><!--如何填滿-->
+						<figure><!--如何填滿
 							<img src="img/因為有你.jpg" alt="ggwp" width="500px";>
 							<p style="text-align:center;">偶像</p>
 						</figure>
@@ -97,7 +140,7 @@
 					<th>系隊</th>
 					<td>系羽</td>
 				</tr>
-			</table><hr>
+			</table><hr><-->
 		</div>
 		<div class="daily" id="daily" >
 			<h2 class="col">My Daily</h2>
